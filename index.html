@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level2-1</title>
+    <link rel="stylesheet" href="./asset/style.css">
+</head>
+<body>
+
+    <section>
+        <article>
+
+            <h4>Name</h4>
+            <div class="textFeld">
+                <input type="text" placeholder="Name"></div>
+
+            <h4>Surname</h4>
+            <div class="textFeld"><input type="text" placeholder="Surname"></div>
+
+            <h4>Email</h4>
+            <div class="textFeld"><input type="email" placeholder="Email"></div>
+            
+
+            <h4>Gender</h4>
+            <div class="gender">
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" id="Male" >
+                <label for="Female">Female</label>
+                <input type="radio" name="gender" id="Female" >
+            </div>
+
+            <h4>Picture</h4>
+            <div class="picture">
+                <input type="file" name="file">
+                <label for="file"></label>
+            </div>
+
+            <h4>Country</h4>
+            <div class="country">
+                <select name="country" id="country">
+                    <option value="Germany">Germany</option>
+                    <option value="France">France</option>
+                    <option value="USA">USA</option>
+                </select>
+            </div>
+
+            <h4>Preferred languages</h4>
+            <div class="languages">
+                <select multiple="multiple" name="langueges">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JS">JS</option>
+                    <option value="React">React</option>
+            </select>                    
+            </div>
+
+            <h4>Field of activity: </h4>
+            <div class="checkbox">
+                <input type="checkbox" name="IT">
+                <label for="IT">IT</label>
+                <input type="checkbox" name="Design">
+                <label for="Design">Design</label>
+                <input type="checkbox" name="Other">
+                <label for="Other">Other</label>
+            </div>
+
+                <input class="buttons" type="submit" value="submit">
+
+                <input class="buttons" type="button" value="cancel">
+        </article>
+    </section>
+    
+</body>
+</html>
